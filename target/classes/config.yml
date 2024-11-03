@@ -1,0 +1,32 @@
+###### AUTHOR | ZPLEUM ###### FOR MC-ZERO.NET ######
+
+# Hologram Settings
+hologram:
+  display_name: "&e&l✧ &f&lGift Box &e&l✧"
+  height: 1.5
+
+# MythicMobs Settings
+mythicmobs:
+  gift_box: "GiftBox"  # ชื่อ MythicMob สำหรับโฮโลแกรมกล่องของขวัญ
+  effects:
+    speed_boost:
+      skill: "RaceSpeedBoost"  # ชื่อ skill ใน MythicMobs
+      duration: 30  # 1.5 วินาที (30 ticks)
+    slow:
+      skill: "RaceSlow"
+      duration: 30
+    banana:
+      skill: "RaceBananaPeel"
+      duration: 30
+    rocket:
+      skill: "RaceRocket"
+      duration: 30
+
+# Messages
+messages:
+  prefix: "&8[&eRaceBox&8] "
+  no_permission: "&cคุณไม่มีสิทธิ์ใช้คำสั่งนี้"
+  box_placed: "&aวางกล่องของขวัญสำเร็จ!"
+  box_removed: "&cลบกล่องของขวัญแล้ว"
+  all_boxes_removed: "&cลบกล่องของขวัญทั้งหมดแล้ว"
+  effect_applied: "&aคุณได้รับไอเทม: &e{effect}"

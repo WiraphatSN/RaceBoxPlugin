@@ -1,0 +1,13 @@
+name: RaceBoxPlugin
+version: '1.0-SNAPSHOT'
+main: me.zpleum.raceBoxPlugin.RaceBoxPlugin
+api-version: '1.20'
+authors: [ zPleum ]
+description: Plugin For MC ZERO Only!!
+depend: [MCPets, MythicMobs]
+
+commands:
+  zadmin:
+    description: RaceBox admin commands
+    usage: /zadmin <spawn|remove|removeall>
+    permission: racebox.admin
